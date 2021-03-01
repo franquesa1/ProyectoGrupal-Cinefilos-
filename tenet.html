@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+
+    <title>Crítica Tenet</title>
+    <link rel="stylesheet" href="./css/post-ind-tenet.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg barra navbar-dark bg-dark">
+      <div class="container-fluid">
+          <a class="navbar-brand  linkhome" href="./index.html">
+              <h1 class="titulo text-white">CineFilos</h1>
+            </a>
+        <button class="navbar-toggler contenedor-barra" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav contenedor-barra">
+            <a class="nav-link active text-white" aria-current="page" href="./post.html">Post</a>
+            <a class="nav-link active text-white" href="./contacto.html">Contacto</a>
+            <a class="nav-link active text-white" href="./aboutus.html">About Us</a>  
+            <a class="nav-link active text-white" data-bs-toggle="modal" data-bs-target="#login" href="#login">Log In</a>
+
+            <!-- Modal login -->
+<div id="login" class="modal fade" id="login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content contenedor-log text-white">
+      <div class="modal-header">
+        <h4 class="modal-title" id="exampleModalLabel"><span>Log In</span></h4>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body ">
+          <label for="usuario" class="me-5"> Usuario </label>
+          <br>
+          <input type="text" placeholder="Usuario" class="mt-2 ">
+          <br>
+
+          <label for="password" class="mt-4 mb-2"> Contraseña</label><br>
+          <input type="password" name="" id="" placeholder="Contraseña" class="mb-5">
+      </div>
+      <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#sign-up">Registrarse</button>
+        <button type="button" class="btn btn-primary">Entrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- MODAL SIGN UP -->
+<div id="sign-up" class="modal fade" id="login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content contenedor-log text-white">
+      <div class="modal-header">
+        <h4 class="modal-title" id="exampleModalLabel"><span>Sign Up</span></h4>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body ">
+          <label for="usuario" class="me-5"> Usuario </label>
+          <br>
+          <input type="text" placeholder="Usuario" class="mt-2 ">
+          <br>
+
+          <label for="password" class="mt-3 mb-2"> Contraseña</label><br>
+          <input type="password" name="" id="" placeholder="Contraseña" class="mb-2"><br>
+
+          <label for="password" class="mt-2 mb-2">Correo Electronico</label><br>
+          <input type="email" name="" id="" placeholder="Ej:lrlichardi@hotmail.com" class="mb-2"><br>
+
+          <label for="password" class="mt-2 mb-2">Telefono</label><br>
+          <input type="number" name="" id="" placeholder="Numero de telefono" class="mb-2">
+      </div>
+      <label for="" class="cajacheck ms-2 mb-2"><input type="checkbox" class="me-1 ms-1 "> Acepto <a style="font-size: 15px;" href="">Terminos y condiciones</a></label>
+      <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Confirmar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+          </div>
+        </div>
+      </div>
+    </nav>
+    <header>
+      <img src="./img/Tenet.jpg" alt="" />
+    </header>
+
+    <div class="container1">
+      <div class="section">
+        <div class="col span_2_of_3">
+          <div class="blog-post">
+            <h1 class="blog-title">TENET, LA MAS AMBICIOSA E INCOMPRENSIBLE OBRA DE NOLAN</h1>
+            <h2 class="date">Publicado el 20 Feb 2021</h2>
+            <img src="./img/tenet-1024x650.jpg" alt="" />
+            <p class="blog-content">
+              Con los diez largometrajes que carga a sus espaldas como máximo responsable —once si contamos el que nos ocupa—, <b> Christopher Nolan ha trascendido al término "director" para pasar por méritos propios a ser catalogado como un "autor"</b>. Un adjetivo vinculado, entre otras cosas, a unas pautas, obsesiones y señas de identidad repetidas, con ciertas variaciones, a lo largo de su heterogénea filmografía.
+              <br>  
+              <br>      
+              Este marcado estilo propio, personal y difícilmente confundible, ha convertido al cineasta británico en un objeto de amores y odios por partes iguales; <b>defendiendo sus simpatizantes sus filias espacio-temporales</b>, sus estructuras enrevesadas y su peculiar concepción sesuda del blockbuster, y criticando duramente sus detractores lo que consideran unas ínfulas de una complejidad mucho más obvia y superficial de lo que realmente es.
+              <br>
+              <br>
+              Con 'Tenet', esta polarización, lejos de debilitarse, está llamada a recrudecerse aún más; y es que este nuevo y deslumbrante puzzle cinematográfico que <b>comparte buena parte de su código genético con la sobresaliente 'Origen'</b> es, posiblemente, el largo más "Christopher Nolan" de Christopher Nolan. Para —muy— bien, o para mal.              
+            </p>
+          </div>
+        </div>
+
+        <aside class="col span_1_of_3">
+          <div class="side-post">
+            <img src="./img/5f4945308341e.jpeg" alt="" />
+            <p class="side-content">
+              'Tenet' imagina la historia de un espía, o algo mucho más grave, dedicado a salvar a la humanidad de un apocalipsis inminente. Un muy flexible John David Washington en la piel de un doliente James Bond tiene que detener los planes casi autoparódicos de Kenneth Branagh empeñado en imitarse a sí mismo. El universo entero perecerá porque como en 'Momo' se puede quedar sin eso que tanto le costaba definir al propio San Agustín: sin tiempo, sin futuro y sin pasado a la vez. El villano posee la clave de la máquina infernal capaz de tanto.</p>
+          </div>
+
+          <div class="side-post">
+            <p class="side-content2">
+Para descargar la película en formato torrent seguí el siguiente enlace:
+            </p>
+            <a href="https://yts.mx/movies/tenet-2020" class="boton" target="_blank">DESCARGAR</a>
+          </div>
+        </aside>
+      </div>
+    </div>
+    
+<div class="video">
+      <div class="container">
+        <section>
+          <h3 class="h3 text-center mt-4 mb-4">
+            Mirá el trailer de la pelicula
+          </h3>
+          <div class="previsua">
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/CdRL6o8z-2A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </div>
+
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+  <footer class="footercomb">
+    <div class="d-flex justify-content-between align-items-center mt-5 footer text-white">
+      <div class="mt-2">
+          <h6><strong class="ms-4">Copyright © 2021</strong></h6>
+      </div>
+      <div class="redes">
+          <a href="https://www.facebook.com/Cinefilos"><i class="fab fa-facebook"></i></a>
+          <a href=""><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com/Cinefilos/"><i class="fab fa-instagram"></i></a>
+      </div>
+      <div class="datosempresa">
+          <div>
+              <i class="fas fa-map-marker-alt mb-3 pe-3"><text class="ms-2">Sarmiento 1030,Tucuman</text></i>
+          </div>
+          <div>
+          <i class="fab fa-whatsapp-square"><strong class="ms-2">Whatapps: 3810848395</strong></i>
+           </div>
+      </div>
+  </div>
+  </footer>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

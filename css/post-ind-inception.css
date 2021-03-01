@@ -1,0 +1,371 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.4em;
+  color: #222;
+  background-color: #efefef;
+  font-family: "Anton";
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 3px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* esquema de grilla*/
+.section {
+  clear: both;
+  padding: 0;
+  margin: 0;
+}
+
+.col {
+  display: block;
+  float: left;
+  margin: 1% 0 1% 1.6%;
+}
+
+.col:first-child {
+  margin-left: 0;
+}
+
+.span_2_of_3 {
+  width: 66.1%;
+}
+
+.span_1_of_3 {
+  width: 32.2%;
+}
+
+/* blog publicaciones*/
+
+.container1 {
+  max-width: 1020px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.blog-post {
+  background: white;
+  margin: 0 auto 2em auto;
+  padding: 35px 30px;
+}
+
+.side-post {
+  background: white;
+  margin: 0 auto 1.5em auto;
+  width: 15em;
+  padding: 20px;
+}
+
+.blog-content {
+  font-family: "Montserrat";
+  font-size: 1em;
+  border-left: 5px solid #b8bcbe;
+  padding-top: 20px;
+  padding-left: 15px;
+}
+
+.side-content {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 0.9em;
+  margin-top: 12px;
+  margin-bottom: 0;
+}
+
+.side-content2 {
+  font-family: "Montserrat";
+  font-weight: lighter;
+  font-size: 0.9em;
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+.blog-title {
+  font-weight: 500px;
+  font-size: 2.5em;
+  margin-top: 6px;
+}
+
+.date {
+  font-size: 1em;
+  font-weight: 400;
+  color: #9c9c9c;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  text-decoration: underline;
+  text-decoration-color: currentColor;
+}
+
+.boton {
+  display: block;
+  padding: 15px 20px;
+  margin-top: 0.8em;
+  background: #009acd;
+  text-align: center;
+  color: white;
+  font-size: 1.4em;
+  border-radius: 3px;
+  transition: all 0.4s ease-in;
+}
+
+.boton:hover {
+  background: #005c7b;
+}
+
+.previsua {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+/* media queries*/
+
+/* @900px */
+
+@media screen and (max-width: 56.25em) {
+  .col {
+    margin: 1% 0 1% 0%;
+  }
+
+  .span_1_of_3,
+  .span_2_of_3 {
+    width: 100%;
+  }
+
+  .side-post {
+    width: 42%;
+    float: left;
+    margin: -2% 0 1% 1.6%;
+  }
+}
+
+.video {
+  width: 100%;
+  float: right;
+  background: white;
+}
+/* @685px */
+
+@media screen and (max-width: 42.813em) {
+  .side-post {
+    width: auto;
+    padding: 15px;
+    margin: -2% auto 8% auto;
+  }
+
+  .blog-title {
+    font-size: 1.95em;
+  }
+
+  .date {
+    font-size: 0.9em;
+  }
+}
+
+/* @380px */
+
+@media screen and (max-width: 23.75em) {
+  .blog-content {
+    font-size: 0.9em;
+  }
+
+  .side-content {
+    font-size: 0.8em;
+  }
+
+  .boton {
+    padding: 10px 15px;
+  }
+}
+
+/* nav */
+.barra {
+  font-family: 'Monserrat', sans-serif;
+  background-image: linear-gradient(
+      66deg,
+      transparent 0%,
+      transparent 24%,
+      rgba(195, 195, 195, 0.04) 24%,
+      rgba(195, 195, 195, 0.04) 80%,
+      transparent 80%,
+      transparent 100%
+    ),
+    linear-gradient(
+      153deg,
+      transparent 0%,
+      transparent 29%,
+      rgba(195, 195, 195, 0.04) 29%,
+      rgba(195, 195, 195, 0.04) 45%,
+      transparent 45%,
+      transparent 100%
+    ),
+    linear-gradient(
+      199deg,
+      transparent 0%,
+      transparent 32%,
+      rgba(195, 195, 195, 0.04) 32%,
+      rgba(195, 195, 195, 0.04) 59%,
+      transparent 59%,
+      transparent 100%
+    ),
+    linear-gradient(
+      277deg,
+      transparent 0%,
+      transparent 56%,
+      rgba(195, 195, 195, 0.04) 56%,
+      rgba(195, 195, 195, 0.04) 57%,
+      transparent 57%,
+      transparent 100%
+    ),
+    linear-gradient(90deg, rgb(0, 0, 0), rgb(0, 0, 0));
+  font-size: 20px;
+  font-weight: 600;
+}
+.contenedor-barra a:hover {
+  background: rgba(139, 139, 139, 0.603);
+  color: #3a7999;
+  box-shadow: inset 0 0 0 #3a7999;
+  padding: 10px 0px;
+}
+
+.titulo {
+  margin: 0px;
+  font-family: 'Anton', sans-serif;
+
+}
+.contenedor-log {
+  background-image: linear-gradient(
+      66deg,
+      transparent 0%,
+      transparent 24%,
+      rgba(195, 195, 195, 0.04) 24%,
+      rgba(195, 195, 195, 0.04) 80%,
+      transparent 80%,
+      transparent 100%
+    ),
+    linear-gradient(
+      153deg,
+      transparent 0%,
+      transparent 29%,
+      rgba(195, 195, 195, 0.04) 29%,
+      rgba(195, 195, 195, 0.04) 45%,
+      transparent 45%,
+      transparent 100%
+    ),
+    linear-gradient(
+      199deg,
+      transparent 0%,
+      transparent 32%,
+      rgba(195, 195, 195, 0.04) 32%,
+      rgba(195, 195, 195, 0.04) 59%,
+      transparent 59%,
+      transparent 100%
+    ),
+    linear-gradient(
+      277deg,
+      transparent 0%,
+      transparent 56%,
+      rgba(195, 195, 195, 0.04) 56%,
+      rgba(195, 195, 195, 0.04) 57%,
+      transparent 57%,
+      transparent 100%
+    ),
+    linear-gradient(90deg, rgb(0, 0, 0), rgb(0, 0, 0));
+}
+/* boton */
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover {
+  color: #fff;
+  background-color: #00657b !important;
+  border-color: #00657b !important;
+}
+.btn-lg {
+  font-size: 16px;
+  padding: 20px 35px;
+}
+
+.btn-primary {
+  background-color: #0085a1;
+  border-color: #0085a1;
+  border-radius:0;
+  font-family: 'Anton', sans-serif;
+}
+.btn-primary a:focus,
+a:hover {
+color: #0085a1;
+}
+.btn {
+  font-size: 14px;
+  font-weight: 100;
+  padding: 10px 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 0;
+  font-family: "Anton", sans-serif;
+}
+
+/* footer */
+.footer {
+  font-family: 'Monserrat', sans-serif;
+  background-image: linear-gradient(
+      66deg,
+      transparent 0%,
+      transparent 24%,
+      rgba(195, 195, 195, 0.04) 24%,
+      rgba(195, 195, 195, 0.04) 80%,
+      transparent 80%,
+      transparent 100%
+    ),
+    linear-gradient(
+      153deg,
+      transparent 0%,
+      transparent 29%,
+      rgba(195, 195, 195, 0.04) 29%,
+      rgba(195, 195, 195, 0.04) 45%,
+      transparent 45%,
+      transparent 100%
+    ),
+    linear-gradient(
+      199deg,
+      transparent 0%,
+      transparent 32%,
+      rgba(195, 195, 195, 0.04) 32%,
+      rgba(195, 195, 195, 0.04) 59%,
+      transparent 59%,
+      transparent 100%
+    ),
+    linear-gradient(
+      277deg,
+      transparent 0%,
+      transparent 56%,
+      rgba(195, 195, 195, 0.04) 56%,
+      rgba(195, 195, 195, 0.04) 57%,
+      transparent 57%,
+      transparent 100%
+    ),
+    linear-gradient(90deg, rgb(0, 0, 0), rgb(0, 0, 0));
+  height: 100px;
+}
+.redes {
+  font-size: 40px;
+  text-decoration: none;
+}
+.datosempresa {
+  font-size: 17px;
+}
+.redes a:hover{
+  color:#354ccc!important;
+}
+.footercomb {
+  width: 100%;
+  float: right;
+}

@@ -1,0 +1,257 @@
+body {
+    font-family: 'Monserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+h4 {
+    font-family: 'Anton', sans-serif;
+    font-weight: 500;
+}
+h1,h3 {
+    font-family: 'Anton', sans-serif;
+    font-weight: 500;
+    }
+.barra{
+    background-image: linear-gradient(
+        66deg,
+        transparent 0%,
+        transparent 24%,
+        rgba(195, 195, 195, 0.04) 24%,
+        rgba(195, 195, 195, 0.04) 80%,
+        transparent 80%,
+        transparent 100%
+    ),
+    linear-gradient(
+        153deg,
+        transparent 0%,
+        transparent 29%,
+        rgba(195, 195, 195, 0.04) 29%,
+        rgba(195, 195, 195, 0.04) 45%,
+        transparent 45%,
+        transparent 100%
+    ),
+    linear-gradient(
+        199deg,
+        transparent 0%,
+        transparent 32%,
+        rgba(195, 195, 195, 0.04) 32%,
+        rgba(195, 195, 195, 0.04) 59%,
+        transparent 59%,
+        transparent 100%
+    ),
+    linear-gradient(
+        277deg,
+        transparent 0%,
+        transparent 56%,
+        rgba(195, 195, 195, 0.04) 56%,
+        rgba(195, 195, 195, 0.04) 57%,
+        transparent 57%,
+        transparent 100%
+    ),
+    linear-gradient(90deg, rgb(0, 0, 0), rgb(0, 0, 0));
+    font-size: 20px;
+        font-weight: 600    ;
+        
+    }
+.contenedor-barra a:hover {
+        background: rgba(139, 139, 139, 0.603);
+        color: #3a7999;
+        box-shadow: inset 0 0 0  #3a7999;
+        padding: 10px 0px;
+      }
+
+.titulo{
+    margin:0px;
+}
+.contenedor-log{
+    background-image: linear-gradient(
+        66deg,
+        transparent 0%,
+        transparent 24%,
+        rgba(195, 195, 195, 0.04) 24%,
+        rgba(195, 195, 195, 0.04) 80%,
+        transparent 80%,
+        transparent 100%
+    ),
+    linear-gradient(
+        153deg,
+        transparent 0%,
+        transparent 29%,
+        rgba(195, 195, 195, 0.04) 29%,
+        rgba(195, 195, 195, 0.04) 45%,
+        transparent 45%,
+        transparent 100%
+    ),
+    linear-gradient(
+        199deg,
+        transparent 0%,
+        transparent 32%,
+        rgba(195, 195, 195, 0.04) 32%,
+        rgba(195, 195, 195, 0.04) 59%,
+        transparent 59%,
+        transparent 100%
+    ),
+    linear-gradient(
+        277deg,
+        transparent 0%,
+        transparent 56%,
+        rgba(195, 195, 195, 0.04) 56%,
+        rgba(195, 195, 195, 0.04) 57%,
+        transparent 57%,
+        transparent 100%
+    ),
+    linear-gradient(90deg, rgb(0, 0, 0), rgb(0, 0, 0));
+
+}
+
+.jumbotron {
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    background-image: url(/img/carteles-de-peliculas-y-series-en-HD.jpg);
+    height: 400px;
+        }
+.jumbotron > h1 {
+    font-size: 120px;
+    text-shadow: 15px -5px 5px black;
+}
+.titulo-entradas {
+    background-color: #f8f9fa!important;
+}
+.contenedor-varios{
+    display: flex;
+    text-decoration: none;
+    background-color:white;
+    }
+.contenedor-secundario{
+    width: 1200px;
+}
+.contenedor-fechas{
+    background-color:white;
+    width: 80%;    
+}
+  .btn-primary:active,
+  .btn-primary:focus,
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #00657b !important;
+    border-color: #00657b !important;
+  }
+  .btn-lg {
+    font-size: 16px;
+    padding: 25px 35px;
+  }
+  
+.btn-primary {
+    background-color: #0085a1;
+    border-color: #0085a1;
+    border-radius:0;
+    font-family: 'Anton', sans-serif;
+  }
+.btn-primary a:focus,
+a:hover {
+  color: #0085a1;
+}
+.btn {
+    font-size: 14px;
+    font-weight: 100;
+    padding: 10px 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 0;
+    font-family: "Anton", sans-serif;
+  }
+  
+  
+.contenedor-fechas{
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f9fa!important;
+    height: max-content;
+}
+
+@media only screen and (max-width: 768px) {
+    .cajacheck{
+        font-size: 14px;
+    }
+    .jumbotron{
+        width: 107%;
+    }
+     .jumbotron > h1 {
+        font-size: 75px;
+        text-shadow: 15px -5px 5px black;
+    }
+    .titulo-entradas {
+        margin-left: -30px;
+        margin-top:-10px;
+    }
+    .contenedor-varios{
+    display: flex;
+    flex-direction: column;
+    }
+    .footer{
+        flex-direction: column;
+        height: max-content !important;
+            }
+    .datosempresa{
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 15px;
+                 }
+}
+.footer{
+    background-image: linear-gradient(
+        66deg,
+        transparent 0%,
+        transparent 24%,
+        rgba(195, 195, 195, 0.04) 24%,
+        rgba(195, 195, 195, 0.04) 80%,
+        transparent 80%,
+        transparent 100%
+    ),
+    linear-gradient(
+        153deg,
+        transparent 0%,
+        transparent 29%,
+        rgba(195, 195, 195, 0.04) 29%,
+        rgba(195, 195, 195, 0.04) 45%,
+        transparent 45%,
+        transparent 100%
+    ),
+    linear-gradient(
+        199deg,
+        transparent 0%,
+        transparent 32%,
+        rgba(195, 195, 195, 0.04) 32%,
+        rgba(195, 195, 195, 0.04) 59%,
+        transparent 59%,
+        transparent 100%
+    ),
+    linear-gradient(
+        277deg,
+        transparent 0%,
+        transparent 56%,
+        rgba(195, 195, 195, 0.04) 56%,
+        rgba(195, 195, 195, 0.04) 57%,
+        transparent 57%,
+        transparent 100%
+    ),
+    linear-gradient(90deg, rgb(0, 0, 0), rgb(0, 0, 0));
+    height: 100px;
+}
+.redes{
+    font-size: 40px;
+    text-decoration: none;
+}
+.redes a{
+    color:white;
+}
+.redes a:hover{
+  color:#354ccc!important;
+}
+.datosempresa{
+    font-size: 17px;
+}
+
+

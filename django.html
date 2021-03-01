@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+
+    <title>Crítica Django Unchained</title>
+    <link rel="stylesheet" href="./css/post-ind-django.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg barra navbar-dark bg-dark">
+      <div class="container-fluid">
+          <a class="navbar-brand  linkhome" href="./index.html">
+              <h1 class="titulo text-white">CineFilos</h1>
+            </a>
+        <button class="navbar-toggler contenedor-barra" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav contenedor-barra">
+            <a class="nav-link active text-white" aria-current="page" href="./index.html">Inicio</a>
+            <a class="nav-link active text-white" aria-current="page" href="./post.html">Post</a>
+            <a class="nav-link active text-white" href="./contacto.html">Contacto</a>
+            <a class="nav-link active text-white" href="./aboutus.html">About Us</a>  
+            <a class="nav-link active text-white" data-bs-toggle="modal" data-bs-target="#login" href="#login">Log In</a>
+
+            <!-- Modal login -->
+<div id="login" class="modal fade" id="login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content contenedor-log text-white">
+      <div class="modal-header">
+        <h4 class="modal-title" id="exampleModalLabel"><span>Log In</span></h4>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body ">
+          <label for="usuario" class="me-5"> Usuario </label>
+          <br>
+          <input type="text" placeholder="Usuario" class="mt-2 ">
+          <br>
+
+          <label for="password" class="mt-4 mb-2"> Contraseña</label><br>
+          <input type="password" name="" id="" placeholder="Contraseña" class="mb-5">
+      </div>
+      <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#sign-up">Registrarse</button>
+        <button type="button" class="btn btn-primary">Entrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- MODAL SIGN UP -->
+<div id="sign-up" class="modal fade" id="login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content contenedor-log text-white">
+      <div class="modal-header">
+        <h4 class="modal-title" id="exampleModalLabel"><span>Sign Up</span></h4>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body ">
+          <label for="usuario" class="me-5"> Usuario </label>
+          <br>
+          <input type="text" placeholder="Usuario" class="mt-2 ">
+          <br>
+
+          <label for="password" class="mt-3 mb-2"> Contraseña</label><br>
+          <input type="password" name="" id="" placeholder="Contraseña" class="mb-2"><br>
+
+          <label for="password" class="mt-2 mb-2">Correo Electronico</label><br>
+          <input type="email" name="" id="" placeholder="Ej:lrlichardi@hotmail.com" class="mb-2"><br>
+
+          <label for="password" class="mt-2 mb-2">Telefono</label><br>
+          <input type="number" name="" id="" placeholder="Numero de telefono" class="mb-2">
+      </div>
+      <label for="" class="cajacheck ms-2 mb-2"><input type="checkbox" class="me-1 ms-1 "> Acepto <a style="font-size: 15px;" href="">Terminos y condiciones</a></label>
+      <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Confirmar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+          </div>
+        </div>
+      </div>
+    </nav>
+    <header>
+      <img src="./img/django portada.jpg" alt="" />
+    </header>
+
+    <div class="container1">
+      <div class="section">
+        <div class="col span_2_of_3">
+          <div class="blog-post">
+            <h1 class="blog-title">TARANTINO SE DIVIERTE CON UN WESTER EXCESIVO QUE REÚNE LO MEJOR Y PEOR DE SU CINE</h1>
+            <h2 class="date">Publicado el 15 Feb 2021</h2>
+            <img src="./img/leonardo-dicaprio-jamie-foxx-christoph-waltz-django-unchained1.jpg" alt="" />
+            <p class="blog-content">
+              Los excesos marcan 'Django desencadenado' desde su potente arranque, primero mostrando los orígenes del protagonista y luego la forma en la que el personaje interpretado por Waltz consigue completar <b> la transacción que se le niega por las buenas</b>. A partir de ahí es algo que siempre estará presente y que estallará en una última media hora de película en la que parece que todo valga, incluyendo una aparición del propio Tarantino como actor que perfectamente se podría haber ahorrado.
+<br>
+<br>
+No obstante, me estoy adelantando demasiado cuando en las casi tres horas de metraje de 'Django desencadenado' encontramos tres partes bien diferenciadas. La primera sirve para sentar las bases de la amistad imposible que surge entre los dos protagonistas, siendo ahí cuando Tarantino se vale más de los tropos del género para jugar con ellos como le apetece. Ahí es cuando todo funciona mejor pese a que <b>no deja de ser una introducción muy extensa</b>.
+              <br>  
+              <br>      
+              La segunda mitad gira alrededor de mostrarnos el plan que lleva a cabo Django para intentar recuperar a su esposa. La película se ralentiza entonces , potenciándose más el uso de esos <b>diálogos tan característicos de Tarantino de los que a veces abusa</b>, deleitándose más de la cuenta. La cuestión es que también es cuando entra en escena un arrollador DiCaprio, sin olvidarme tampoco del genial personaje interpretado por Samuel L. Jackson.
+<br>
+<br>
+              Todo eso compensa con creces cualquier posible bajón de ritmo y casi hace que uno se olvide de una debilidad esencial de <b>'Django desencadenado': nunca llega a conseguir que uno conecte de forma completa con el viaje emocional de su protagonista</b>. También se nota entonces que Foxx cumple con holgura pero le falta ese plus para dar toda la entidad que requiere su personaje.
+              <br>
+              <br>
+              <b>'Django desencadenado' se convirtió en la película más taquillera de Tarantino hasta la fecha </b>con unos ingresos mundiales de 425 millones de dólares frente a un presupuesto de 100. Todo un éxito que de paso confirmó una vez más el idilio de DiCaprio con el público, quizá el único actor infalible a día de hoy.
+            </p>
+          </div>
+        </div>
+
+        <aside class="col span_1_of_3">
+          <div class="side-post">
+            <img src="./img/Django-desencadenado.jpg" alt="" />
+            <p class="side-content">
+              Quentin Tarantino recuperó rápidamente el favor del público con 'Malditos bastardos' tras el fracaso de 'Death Proof', tardando poco en decidir que su siguiente trabajo sería su particular homenaje al spaghetti western, siguiendo así una idea que llevaba ya varios años rondando por su cabeza. Contando para la ocasión con un trío protagonista formado por Jamie Foxx, Christoph Waltz y Leonardo DiCaprio, 'Django desencadenado' es una película que reúne tanto lo mejor como lo mejor de su director. Una propuesta desequilibrada en la que, eso sí, predomina lo positivo que sin duda deleita a los más asérrimos seguidores de Quentin.</p>
+          </div>
+
+          <div class="side-post">
+            <p class="side-content2">
+Para descargar la película en formato torrent seguí el siguiente enlace:
+            </p>
+            <a href="https://yts.mx/movies/django-unchained-2012" class="boton" target="_blank">DESCARGAR</a>
+          </div>
+        </aside>
+      </div>
+    </div>
+    
+<div class="video">
+      <div class="container">
+        <section>
+          <h3 class="h3 text-center mt-4 mb-4">
+            Mirá el trailer de la pelicula
+          </h3>
+          <div class="previsua">
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/cakdKJcLVjw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </div>
+
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+  <footer class="footercomb">
+    <div class="d-flex justify-content-between align-items-center mt-5 footer text-white">
+      <div class="mt-2">
+          <h6><strong class="ms-4">Copyright © 2021</strong></h6>
+      </div>
+      <div class="redes">
+          <a href="https://www.facebook.com/Cinefilos"><i class="fab fa-facebook"></i></a>
+          <a href=""><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com/Cinefilos/"><i class="fab fa-instagram"></i></a>
+      </div>
+      <div class="datosempresa">
+          <div>
+              <i class="fas fa-map-marker-alt mb-3 pe-3"><text class="ms-2">Sarmiento 1030,Tucuman</text></i>
+          </div>
+          <div>
+          <i class="fab fa-whatsapp-square"><strong class="ms-2">Whatapps: 3810848395</strong></i>
+           </div>
+      </div>
+  </div>
+  </footer>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

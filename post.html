@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
+    
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <link
+      href="vendor/fontawesome-free/css/all.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <link href="./css/post.css" rel="stylesheet" />
+
+    <title>Post</title>
+  </head>
+  <nav class="navbar navbar-expand-lg barra navbar-light pb-0">
+    <div class="container-fluid">
+        <a class="navbar-brand  linkhome" href="./index.html">
+            <h1 class="titulo text-white">CineFilos</h1>
+          </a>
+      <button class="navbar-toggler contenedor-barra" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav contenedor-barra">
+          <a class="nav-link active text-white" aria-current="page" href="./index.html">Inicio</a>
+          <a class="nav-link active text-white" aria-current="page" href="./post.html">Post</a>
+          <a class="nav-link active text-white" href="./contacto.html">Contacto</a>
+          <a class="nav-link active text-white" href="./aboutus.html">About Us</a>  
+          <a class="nav-link active text-white" data-bs-toggle="modal" data-bs-target="#login" href="#login">Log In</a>
+
+          <!-- Modal login -->
+<div id="login" class="modal fade" id="login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+  <div class="modal-content contenedor-log text-white">
+    <div class="modal-header">
+      <h4 class="modal-title" id="exampleModalLabel"><span>Log In</span></h4>
+      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body ">
+        <label for="usuario" class="me-5"> Usuario </label>
+        <br>
+        <input type="text" placeholder="Usuario" class="mt-2 ">
+        <br>
+
+        <label for="password" class="mt-4 mb-2"> Contraseña</label><br>
+        <input type="password" name="" id="" placeholder="Contraseña" class="mb-5">
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#sign-up">Registrarse</button>
+      <button type="button" class="btn btn-primary">Entrar</button>
+    </div>
+  </div>
+</div>
+</div>
+<!-- MODAL SIGN UP -->
+<div id="sign-up" class="modal fade" id="login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+  <div class="modal-content contenedor-log text-white">
+    <div class="modal-header">
+      <h4 class="modal-title" id="exampleModalLabel"><span>Sign Up</span></h4>
+      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body ">
+        <label for="usuario" class="me-5"> Usuario </label>
+        <br>
+        <input type="text" placeholder="Usuario" class="mt-2 ">
+        <br>
+
+        <label for="password" class="mt-3 mb-2"> Contraseña</label><br>
+        <input type="password" name="" id="" placeholder="Contraseña" class="mb-2"><br>
+
+        <label for="password" class="mt-2 mb-2">Correo Electronico</label><br>
+        <input type="email" name="" id="" placeholder="Ej:lrlichardi@hotmail.com" class="mb-2"><br>
+
+        <label for="password" class="mt-2 mb-2">Telefono</label><br>
+        <input type="number" name="" id="" placeholder="Numero de telefono" class="mb-2">
+    </div>
+    <label for="" class="cajacheck ms-2 mb-2"><input type="checkbox" class="me-1 ms-1 ">Acepto <a href="">Terminos y condiciones</a></label>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Confirmar</button>
+    </div>
+  </div>
+</div>
+</div>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+  <header class="masthead" style="background-image: url(./img/10.jpeg)">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <h1>ULTIMAS CRÍTICAS</h1>
+            <h2 class="subheading">
+              Descubrí lo mejor y lo peor de cada estreno
+            </h2>
+            <span class="meta"
+              >Nuestros críticos especializados te darán una breve guía con qué
+              deleitarte y qué podes dejar pasar...</span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <body>
+    <div class="container">
+      <h1 class="my-4">Criticas</h1>
+
+      <div class="row">
+        <div class="col-md-7">
+          <a href="#">
+            <img
+              class="img-fluid rounded mb-3 mb-md-0"
+              src="./img/tenet.jpeg"
+              alt=""
+            />
+          </a>
+        </div>
+        <div class="col-md-5">
+          <h3>TENET</h3>
+          <p>
+            Armado con tan solo una palabra –Tenet– el protagonista de esta
+            historia deberá pelear por la supervivencia del mundo entero, cuya
+            experiencia se desdoblará más allá del tiempo lineal.
+          </p>
+          <a class="btn btn-primary" href="./tenet.html">LEER CRÍTICA</a>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="row">
+        <div class="col-md-7">
+          <a href="./brig.html">
+            <img
+              class="img-fluid rounded mb-3 mb-md-0"
+              src="./img/brig.jpg"
+              alt=""
+            />
+          </a>
+        </div>
+        <div class="col-md-5">
+          <h3>BRIGSBY BEAR</h3>
+          <p>
+            James Pope es el único espectador de una serie de televisión
+            infantil llamada "Brigsby Bear Adventures". Un día descubre que la
+            serie ha sido cancelada y el motivo es tétrico, pero Pope no se
+            rinde y decide darle un final él mismo a la trama inconclusa.
+          </p>
+          <a class="btn btn-primary" href="./brig.html">LEER CRÍTICA</a>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="row">
+        <div class="col-md-7">
+          <a href="./django.html">
+            <img
+              class="img-fluid rounded mb-3 mb-md-0"
+              src="./img/django.jpg"
+              alt=""
+            />
+          </a>
+        </div>
+        <div class="col-md-5">
+          <h3>DJANGO UNCHAINED</h3>
+          <p>
+            Un exesclavo une fuerzas con un cazador de recompensas alemán que lo
+            liberó y lo ayuda a buscar a los criminales más buscados del sur de
+            los Estados Unidos, con la esperanza de reencontrarse con su esposa.
+          </p>
+          <a class="btn btn-primary" href="./django.html">LEER CRÍTICA</a>
+        </div>
+      </div>
+      >
+
+      <hr />
+
+      <div class="row">
+        <div class="col-md-7">
+          <a href="./inception.html">
+            <img
+              class="img-fluid rounded mb-3 mb-md-0"
+              src="./img/inception.jpg"
+              alt=""
+            />
+          </a>
+        </div>
+        <div class="col-md-5">
+          <h3>INCEPTION</h3>
+          <p>
+            Dom Cobb es un ladrón con la habilidad de entrar en los sueños de la
+            gente para manejar su subconciente, aunque esto ha tenido un gran
+            costo en la gente que ama. Cobb obtiene la oportunidad de redimirse
+            cuando recibe una tarea imposible: plantar una idea en la mente de
+            una persona, pero un enemigo se le anticipa.
+          </p>
+          <a class="btn btn-primary" href="./inception.html">LEER CRÍTICA</a>
+        </div>
+      </div>
+
+      <hr />
+
+      <!-- Pagination -->
+      <ul class="pagination justify-content-center">
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+            <span class="sr-only">Previous</span>
+          </a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">1</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">2</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">3</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+            <span class="sr-only">Next</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- /.container -->
+<!-- footer -->
+<div class="d-flex justify-content-between align-items-center mt-5 footer text-white">
+  <div>
+      <h6><strong class="ms-4" style="font-family: 'Monserrat' , sans-serif!important"
+        >Copyright © 2021</strong></h6>
+  </div>
+  <div class="redes">
+      <a href="https://www.facebook.com/Cinefilos"><i class="fab fa-facebook"></i></a>
+      <a href=""><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com/Cinefilos/"><i class="fab fa-instagram"></i></a>
+  </div>
+  <div class="datosempresa">
+      <div>
+          <i class="fas fa-map-marker-alt mb-3 pe-3"><text class="ms-2">Sarmiento 1030,Tucuman</text></i>
+      </div>
+      <div>
+      <i class="fab fa-whatsapp-square"><strong class="ms-2">Whatapps: 3810848395</strong></i>
+       </div>
+  </div>
+</div>  
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/clean-blog.min.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

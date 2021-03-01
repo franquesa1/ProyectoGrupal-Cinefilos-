@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css?_cacheOverride=1614557956353" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+    <!-- fontaweasome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+    <title>Cinefilos</title>
+</head>
+
+<body>
+   
+    <nav class="navbar navbar-expand-lg barra navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand  linkhome" href="./index.html">
+                <h1 class="titulo text-white">CineFilos</h1>
+              </a>
+          <button class="navbar-toggler contenedor-barra" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav contenedor-barra">
+              <a class="nav-link active text-white" aria-current="page" href="./post.html">Post</a>
+              <a class="nav-link active text-white" href="./contacto.html">Contacto</a>
+              <a class="nav-link active text-white" href="./aboutus.html">About Us</a>  
+              <a class="nav-link active text-white" data-bs-toggle="modal" data-bs-target="#login" href="#login">Log In</a>
+
+              <!-- Modal login -->
+<div id="login" class="modal fade" id="login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content contenedor-log text-white">
+        <div class="modal-header">
+          <h4 class="modal-title" id="exampleModalLabel"><span>Log In</span></h4>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body ">
+            <label for="usuario" class="me-5"> Usuario </label>
+            <br>
+            <input type="text" placeholder="Usuario" class="mt-2 ">
+            <br>
+
+            <label for="password" class="mt-4 mb-2"> Contraseña</label><br>
+            <input type="password" name="" id="" placeholder="Contraseña" class="mb-5">
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#sign-up">Registrarse</button>
+          <button type="button" class="btn btn-primary">Entrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- MODAL SIGN UP -->
+  <div id="sign-up" class="modal fade" id="login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content contenedor-log text-white">
+        <div class="modal-header">
+          <h4 class="modal-title" id="exampleModalLabel"><span>Sign Up</span></h4>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body ">
+            <label for="usuario" class="me-5"> Usuario </label>
+            <br>
+            <input type="text" placeholder="Usuario" class="mt-2 ">
+            <br>
+
+            <label for="password" class="mt-3 mb-2"> Contraseña</label><br>
+            <input type="password" name="" id="" placeholder="Contraseña" class="mb-2"><br>
+
+            <label for="password" class="mt-2 mb-2">Correo Electronico</label><br>
+            <input type="email" name="" id="" placeholder="Ej:lrlichardi@hotmail.com" class="mb-2"><br>
+
+            <label for="password" class="mt-2 mb-2">Telefono</label><br>
+            <input type="number" name="" id="" placeholder="Numero de telefono" class="mb-2">
+        </div>
+        <label for="" class="cajacheck ms-2 mb-2"><input type="checkbox" class="me-1 ms-1 "> Acepto <a style="font-size: 15px;" href="">Terminos y condiciones</a></label>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Confirmar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+            </div>
+          </div>
+        </div>
+      </nav>
+    
+    
+    
+        <div class="jumbotron p-0 masthead">
+            <h1 class="text-white">Cinefilos</h1>
+        </div>
+    
+    <!-- Articulos recientes -->
+    <h1 class="titulo-entradas mt-4 ps-5">ULTIMAS ENTRADAS</h1>
+    <article class="contenedor-varios mt-3">
+        <article class="contenedor-post mb-1">
+            <div class="row">
+                <div class="col-md-5">
+                    <a href="#">
+                        <img class="img-fluid rounded mt-2 ms-3 mb-3 mb-md-0" src="./img/tenet.jpeg" alt="" />
+                    </a>
+                </div>
+                <div class="col-md-6 ms-3">
+                    <h3>TENET</h3>
+                    <p>
+                        Armado con tan solo una palabra –Tenet– el protagonista de esta
+                        historia deberá pelear por la supervivencia del mundo entero, cuya
+                        experiencia se desdoblará más allá del tiempo lineal.
+                    </p>
+                    <a class="btn btn-primary" href="./tenet.html">LEER CRÍTICA</a>
+                </div>
+            </div>
+
+            <hr />
+
+            <div class="row">
+                <div class="col-md-5">
+                    <a href="#">
+                        <img class="img-fluid rounded ms-3  mb-3 mb-md-0" src="./img/brig.jpg" alt="" />
+                    </a>
+                </div>
+                <div class="col-md-6 ms-3">
+                    <h3>BRIGSBY BEAR</h3>
+                    <p>
+                        James Pope es el único espectador de una serie de televisión
+                        infantil llamada "Brigsby Bear Adventures". Un día descubre que la
+                        serie ha sido cancelada y el motivo es tétrico, pero Pope no se
+                        rinde y decide darle un final él mismo a la trama inconclusa.
+                    </p>
+                    <a class="btn btn-primary" href="#">LEER CRÍTICA</a>
+                </div>
+            </div>
+            <hr />
+            <!-- Ultimas noticias!! -->
+<div>
+    <h1 class="titulo-entradas mt-5 ps-5">News</h1>
+    <h3 class="subtitulo ps-3 mt-3 mb-4">Ultimas noticias sobre el cine y sus actores</h3>
+</div>
+    <div>
+        <article class="contenedor-varios mt-3">
+            <article class="contenedor-post mb-1">
+                <div class="row">
+                    <div class="col-md-5">
+                        <a href="#">
+                            <img class="img-fluid rounded mt-2 ms-3 mb-3 mb-md-0" src="./img/actor2.jpg" alt="" />
+                        </a>
+                        <p class="ms-3" style="font-size: 18px;">Brad pitt</p>
+                    </div>
+                    <div class="col-md-6 ms-3">
+                        <h4>Un falso Brad Pitt moderó durante dos horas una sala en Clubhouse</h4>
+                        <p>
+                            El usuario se hizo pasar por el actor en una charla sobre cambio climático, hasta que le preguntaron si era él y admitió el engaño.El publico presente no podia creer lo que estaba ocurriendo.
+                        </p>
+                        <a class="btn btn-primary" href="#">LEER MAS</a>
+                    </div>
+                </div>
+    
+                <hr />
+    
+                <div class="row">
+                    <div class="col-md-5">
+                        <a href="#">
+                            <img class="img-fluid rounded ms-3  mb-3 mb-md-0" src="./img/actor1.jpg" alt="" />
+                        </a>
+                        <p class="ms-3" style="font-size: 18px;">Johnny Depp</p>
+                    </div>
+                    <div class="col-md-6 ms-3">
+                        <h4>Piden que Johnny Depp vuelva a ser Jack Sparrow</h4>
+                        <p>
+                            Desde su lanzamiento, Piratas del Caribe fue uno de los grandes éxitos de Disney. El personaje Jack Sparrow, interpretado por Johnny Depp, siempre generó muchas sonrisas entre el público y fue muy querido. Sin embargo, tras los grandes problemas y escándalos que enfrenta el actor.
+                        </p>
+                        <a class="btn btn-primary" href="#">LEER MAS</a>
+                    </div>
+                </div>
+                <hr />
+    </div>
+
+        </article>
+            </div>
+            
+        <!-- Fechas de posteo y blog-->          
+            <aside class="contenedor-fechas me-4 mt-1 ">
+                <div>
+                    <ol class="list-unstyled ms-3 text-decoration-none">
+                        <h4 class="">Archivos</h4>
+                        <li><a class="text-decoration-none" href="">Agosto 2020</a></li>
+                        <li><a class="text-decoration-none" href="">Septiembre 2020</a></li>
+                        <li><a class="text-decoration-none" href="">Octubre 2020</a></li>
+                        <li><a class="text-decoration-none" href="">Noviembre 2020</a></li>
+                        <li><a class="text-decoration-none" href="">Diciembre 2020</a></li>
+                        <li><a class="text-decoration-none" href="">Enero 2021</a></li>
+                        <li><a class="text-decoration-none" href="">Febrero 2021</a></li>
+                    </ol>
+                </div>
+                <div>
+                    <ol class="list-unstyled me-5 ms-3">
+                <h4>Redes</h4>
+                <li><a class="text-decoration-none" href="">Facebook</a></li> 
+                <li><a class="text-decoration-none" href="">Twitter</a></li>
+                <li><a class="text-decoration-none" href="">Instagram</a></li>
+            </ol>
+        </aside>
+    
+</article>
+<!-- FOOTER -->
+<div class="d-flex justify-content-between align-items-center mt-5 footer text-white">
+    <div class="mt-2">
+        <h6><strong class="ms-4">Copyright © 2021</strong></h6>
+    </div>
+    <div class="redes">
+        <a href="https://www.facebook.com/Cinefilos"><i class="fab fa-facebook"></i></a>
+        <a href=""><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/Cinefilos/"><i class="fab fa-instagram"></i></a>
+    </div>
+    <div class="datosempresa">
+        <div>
+            <i class="fas fa-map-marker-alt mb-3 pe-3"><text class="ms-2">Sarmiento 1030,Tucuman</text></i>
+        </div>
+        <div>
+        <i class="fab fa-whatsapp-square"><strong class="ms-2">Whatapps: 3810848395</strong></i>
+         </div>
+    </div>
+</div>  
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
