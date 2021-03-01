@@ -309,7 +309,20 @@ color: #0085a1;
     ),
     linear-gradient(90deg, rgb(0, 0, 0), rgb(0, 0, 0));
 }
+@media only screen and (max-width: 768px) {
+  .footer{
+    flex-direction: column;
+    height: max-content !important;
+        }
+.datosempresa{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 14px!important;
+    margin-top:8px;
+             }
 
+}
 /* footer */
 .footer {
   font-family: 'Monserrat', sans-serif;

@@ -276,6 +276,7 @@ header.masthead .post-heading .meta a {
 @media only screen and (min-width: 768px) {
   .post-preview > a > .post-title {
     font-size: 36px;
+    
   }
 }
 .floating-label-form-group {
@@ -362,6 +363,21 @@ footer .copyright {
 .btn-lg {
   font-size: 16px;
   padding: 25px 35px;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer{
+    flex-direction: column;
+    height: max-content !important;
+        }
+.datosempresa{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 14px!important;
+    margin-top:8px;
+             }
+
 }
 /* footer */
 .footer{

@@ -201,7 +201,7 @@ color: #0085a1;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 200px;
+    margin-bottom: 75px;
 }
 
 .tarjetas div {
@@ -225,13 +225,17 @@ color: #0085a1;
     flex-direction: column;
     height: max-content !important;
         }
+.card{
+    margin-bottom: 20px!important;
+}     
 .datosempresa{
     display:flex;
     flex-direction: column;
     text-align: center;
-    font-size: 15px;
-             }
-            }
+    font-size: 14px!important;
+    margin-bottom: 8px;
+         }
+  }
 /* footer */
 .footer{
     background-image: linear-gradient(
